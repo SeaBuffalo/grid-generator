@@ -1,0 +1,17 @@
+{
+  "name": "grid-generator",
+  "version": "1.0.0",
+  "description": "Module to create nested arrays mapped to DOM Elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Grids",
+    "Arrays",
+    "Nesting",
+    "DOM"
+  ],
+  "author": "Ben Schulze",
+  "license": "MIT"
+}
