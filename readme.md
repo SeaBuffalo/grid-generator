@@ -127,8 +127,8 @@ Binded to sample HTML document
 //Grid
 
 //Constructor
-new Grid(rows, column, Cell) //creates grid with n rows/columns  
-                             //using supplied Cell values
+new Grid(rows, column, Cell, parent) //creates grid with n rows/columns  
+                                //using supplied Cell and parent element
 
 //Properties
 newGrid.element              //returns grid mapped to a DOM element
@@ -137,6 +137,7 @@ newGrid.rows                 //returns total rows
 newGrid.columns              //returns total columns
 newGrid.totalCells           //returns total cells
 newGrid.cell                 //returns current cell properties
+newGrid.parent               //returns parent element
 
 //Methods
 newGrid.addRows(rows)        //add n rows

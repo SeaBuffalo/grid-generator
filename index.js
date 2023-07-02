@@ -105,6 +105,10 @@ export class Grid {
     return this._cell;
   }
 
+  get parent() {
+    return this._parent;
+  }
+
   //all methods
   addRows(row) {
     if (typeof row !== "number")
