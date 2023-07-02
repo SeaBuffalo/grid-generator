@@ -13,5 +13,13 @@
     "DOM"
   ],
   "author": "Ben Schulze",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeaBuffalo/grid-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SeaBuffalo/grid-generator/issues"
+  },
+  "homepage": "https://github.com/SeaBuffalo/grid-generator#readme"
 }
