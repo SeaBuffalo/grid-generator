@@ -1,6 +1,6 @@
 {
-  "name": "grid-generator",
-  "version": "1.0.0",
+  "name": "@seabuffalo/grid-generator",
+  "version": "1.0.3",
   "description": "Module to create nested arrays mapped to DOM Elements",
   "main": "index.js",
   "scripts": {

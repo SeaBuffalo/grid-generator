@@ -1,6 +1,6 @@
 # Grid Generator
 
-JavaScript class to generate nested arrays and map them to the DOM.
+Simple JavaScript class to generate nested arrays and map them to the DOM.
 
 ## Install
 ```sh
@@ -10,7 +10,7 @@ npm install @seabuffalo/grid-generator
 ## API
 Grid-Generator uses the static ```import``` declaration and so must be used inside a JavaScript module
 ```js
-import { Grid, Cell } from "grid-generator"
+import { Grid, Cell } from "./node_modules/@seabuffalo/grid-generator/index.js"
 new Cell(r, g, b, a)
 new Grid(rows, columns, cell, parent)
 ```
@@ -19,13 +19,16 @@ new Grid(rows, columns, cell, parent)
 Sample JavaScript functionality ```test.js```
 ```js
 //import Grid and Cell classes in module format
-import { Grid, Cell } from "grid-generator";
+import { Grid, Cell } from './node_modules/@seabuffalo/grid-generator/index.js'
 
 //identify DOM element to append grid to
 const gridContainer = document.querySelector(".grid-container");
 
 //create new Grid instance
+//Each grid is comprised of cells, created with the Cell class
 const newCell = new Cell(0, 200, 100, 1);
+
+//Grids take four initial arguments: rows, columns, Cell, and parent element
 const newGrid = new Grid(3, 3, newCell, gridContainer);
 
 //bind Grid methods to custom inputs
